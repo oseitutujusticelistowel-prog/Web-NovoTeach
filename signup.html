@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | NovoTech</title>
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>NovoTech</span>
+                </a>
+
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="signup.html" class="btn btn-primary active">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SIGNUP PAGE -->
+    <section class="page-section">
+        <div class="container">
+
+            <div class="login-container">
+
+                <div class="login-header">
+                    <h2>Create Your Account</h2>
+                    <p>Join thousands of learners and start your journey today</p>
+                </div>
+
+                <div class="social-login">
+                    <button class="social-btn">
+                        <i class="fab fa-google" style="color: #DB4437;"></i>
+                        <span>Google</span>
+                    </button>
+                    <button class="social-btn">
+                        <i class="fab fa-facebook" style="color: #4267B2;"></i>
+                        <span>Facebook</span>
+                    </button>
+                </div>
+
+                <div class="divider">
+                    <span>Or sign up with email</span>
+                </div>
+
+                <form id="signupForm">
+
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" class="form-control" placeholder="Your Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-email">Email Address</label>
+                        <input type="email" id="signup-email" class="form-control" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" class="form-control" placeholder="Create a Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-confirm">Confirm Password</label>
+                        <input type="password" id="signup-confirm" class="form-control" placeholder="Confirm Your Password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width:100%;">Create Account</button>
+
+                </form>
+
+                <div class="login-footer">
+                    <p>Already have an account? <a href="login.html">Log in here</a></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

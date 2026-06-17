@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo" onclick="showPage('home')">
+          <i class="fas fa-graduation-cap"></i>
+          <span>EduLearn</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="active" onclick="showPage('home')"
+            >Home</a
+          >
+          <a href="courses.html" onclick="showPage('courses')">Courses</a>
+          <a href="about.html" onclick="showPage('about')">About</a>
+          <a href="contact.html" onclick="showPage('contact')">Contact</a>
+        </div>
+        <div class="auth-buttons">
+          <a
+            href="login.html"
+            class="btn btn-outline"
+            onclick="showPage('login')"
+            >Login</a
+          >
+          <a
+            href="signup.html"
+            class="btn btn-primary"
+            onclick="showPage('signup')"
+            >Sign Up</a
+          >
+        </div>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <section class="courses page-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Popular Courses</h2>
+          <p>Explore our most enrolled courses across various categories</p>
+        </div>
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-img" style="background: #4361ee">
+              Web Development
+            </div>
+            <div class="course-content">
+              <span class="course-category">Technology</span>
+              <h3>Complete Web Development Bootcamp 2024</h3>
+              <p>
+                Learn HTML, CSS, JavaScript, React, Node.js and more from
+                scratch.
+              </p>
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 60 hours</span>
+                <span><i class="far fa-user"></i> 4,500 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$89.99</div>
+                <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-img" style="background: #3a0ca3">
+              Data Science
+            </div>
+            <div class="course-content">
+              <span class="course-category">Data & Analytics</span>
+              <h3>Data Science and Machine Learning</h3>
+              <p>
+                Master Python, statistics, machine learning algorithms and data
+                visualization.
+              </p>
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 80 hours</span>
+                <span><i class="far fa-user"></i> 3,200 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$99.99</div>
+                <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+              </div>
+            </div>
+          </div>
+           <div class="course-card">
+            <div class="course-img" style="background: #bbaed9">
+              Ethical Hacking
+            </div>
+            <div class="course-content">
+              <span class="course-category">Technology</span>
+              <h3>Computer Networking and Penetration testing</h3>
+              <p>
+                Master Python, My SQL, Computer Networking ,Ethical Hacking and 
+                cybersecurity.
+                .
+              </p>
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 30 hours</span>
+                <span><i class="far fa-user"></i> 5,200 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$100.00</div>
+                <div class="rating"><i class="fas fa-star"></i> 5.0</div>
+              </div>
+            </div>
+          </div>
+           <div class="course-card">
+            <div class="course-img" style="background: #2c1a26">
+              ROBOTICS
+            </div>
+            <div class="course-content">
+              <span class="course-category">Technology</span>
+              <h3>Robotics and Artifical interlligent</h3>
+              <p>
+                Master Python, C++ Programming, TinkerCAD Simulation and Ardiuno IDE
+                Computer vision , Electronics Assembling and AI modulation.
+              </p>
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 20 hours</span>
+                <span><i class="far fa-user"></i> 6,000 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$90.00</div>
+                <div class="rating"><i class="fas fa-star"></i> 5.5</div>
+              </div>
+            </div>
+          </div>
+           <div class="course-card">
+            <div class="course-img" style="background: #bfd44c">
+              <a href="index.html">Mobile App Development</a>  
+            </div>
+            <div class="course-content">
+              <span class="course-category">Tech</span>
+              <h3>Mobile App for Andriod & IOS</h3>
+              <p>
+                Master Python, Reat, Java, Draft, Swift and C++.
+              </p>
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 10 hours</span>
+                <span><i class="far fa-user"></i> 3,000 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$50.99</div>
+                <div class="rating"><i class="fas fa-star"></i> 4.0</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-img" style="background: #4c9816">
+              Digital Marketing
+            </div>
+            <div class="course-content">
+              <span class="course-category">Business</span>
+              <h3>Digital Marketing Mastery</h3>
+              <p>
+                Learn SEO, social media marketing, email campaigns and
+                analytics.
+              </p>
+
+              <div class="course-info">
+                <span><i class="far fa-clock"></i> 45 hours</span>
+                <span><i class="far fa-user"></i> 5,100 students</span>
+              </div>
+              <div class="course-footer">
+                <div class="price">$79.99</div>
+                <div class="rating"><i class="fas fa-star"></i> 4.7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
